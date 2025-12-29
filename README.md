@@ -24,7 +24,11 @@
 
 ## 😍 Evaluation
 
-Our codebase is largely based on the Reward Bench and RM Bench Thus for the environment setup, you may follow the instructions in the Reward Bench Setup. After git clone the repository, you can run the following command to evaluate the reward model on RM-Bench with Reward Auditor:
+This project leverages the infrastructure of RM-Bench.
+
+Environment: Follow the setup guide provided in [RewardBench](https://github.com/allenai/reward-bench) and [RM-Bench](https://github.com/THU-KEG/RM-Bench).
+
+Execution: After cloning this repository, use the command below to conduct a Reward Auditor evaluation on RM-Bench:
 
 ```bash
 bash run_rm_auditing.sh # evaluate the suitability of the reward models
