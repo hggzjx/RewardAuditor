@@ -1,0 +1,7 @@
+[flake8]
+exclude = 
+    rewardbench/models/openassistant.py
+per-file-ignores =
+    rewardbench/generative.py:E501
+    rewardbench/generative_v2.py:E501
+extend-ignore = E203
