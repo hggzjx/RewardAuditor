@@ -39,7 +39,7 @@ chat_template=tulu
 
 for MODEL_PATH in ${MODEL_PATH_LIST[@]}; do
     for TASK_PREFIX in ${TASK_LIST[@]}; do
-        python scripts/run_dpo.py \
+        python scripts/run_dpo_auditing.py \
             --model "$MODEL_PATH" \
             --datapath "$DATA_DIR" \
             --task "$TASK_PREFIX" \
