@@ -43,6 +43,16 @@ bash run_dpo_auditing.sh
 
 The results of evaluation will be saved in the dictionary you set in the bash script (parameter `--result_output_dir`).
 
+The results of chat subset of RM Bench:
+
+![](assets/res1.png)
+
+The results of all 5 subsets of RM Bench:
+
+![](assets/res2.png)
+
+
+
 ## 📝License
 Distributed under the Apache-2.0 License. See LICENSE for more information.
 
