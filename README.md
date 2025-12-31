@@ -8,7 +8,7 @@
   <span style="color:red">📢 <strong><i>If you are interested in our work, please star ⭐ our project.</i></strong></span>
 
   <h4>
-    <a href="https://arxiv.org/abs/2512.00920"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:Reward Auditor&color=red&logo=arxiv"></a>
+    <a href="https://arxiv.org/abs/2512.00920"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv:RewardAuditor&color=red&logo=arxiv"></a>
     <img src="https://img.shields.io/badge/License-Apache_2.0-green.svg" alt="License">
   </h4>
 </div>
@@ -22,20 +22,26 @@
 ![](assets/framework.png)
 
 
-## 😍 Evaluation
+## 😍 Setup & Evaluation
 
 This project leverages the infrastructure of RM-Bench.
 
 Environment: Follow the setup guide provided in [RewardBench](https://github.com/allenai/reward-bench) and [RM-Bench](https://github.com/THU-KEG/RM-Bench).
 
-Execution: After cloning this repository, use the command below to conduct a Reward Auditor evaluation on RM-Bench:
+Execution: After cloning this repository, use the bash commands below to conduct a Reward Auditor evaluation on RM-Bench:
 
+evaluate the suitability of the reward models:
 ```bash
-bash run_rm_auditing.sh # evaluate the suitability of the reward models
-bash run_dpo_auditing.sh # evaluate the suitability of the DPO based model
+bash run_rm_auditing.sh 
 ```
 
+evaluate the suitability of the dpo based models:
 
+```bash
+bash run_dpo_auditing.sh 
+```
+
+The results of evaluation will be saved in the dictionary you set in the bash script (parameter `--result_output_dir`).
 
 ## 📝License
 Distributed under the Apache-2.0 License. See LICENSE for more information.
