@@ -36,7 +36,7 @@ TASK_LIST=(
     "math"
 )
 
-DATA_DIR="data4"
+DATA_DIR="datasets"
 
 CUDA_DEVICE="0,1,2"
 export PYTHONPATH=$PYTHONPATH:pwd
