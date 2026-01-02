@@ -53,11 +53,6 @@ The results of all 5 subsets of RM Bench:
 
 
 
-## 📝License
-Distributed under the Apache-2.0 License. See LICENSE for more information.
-
-
-
 
 ## 📖Citation
 
