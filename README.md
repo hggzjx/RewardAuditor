@@ -54,7 +54,7 @@ The results of all 5 subsets of RM Bench:
 
 
 
-## 📖Citation
+<!-- ## 📖Citation
 
 if you find this work helpful, please cite it as:
 
@@ -65,5 +65,5 @@ if you find this work helpful, please cite it as:
   journal={arXiv preprint arXiv:2512.00920},
   year={2025}
 }
-```
+``` -->
 
